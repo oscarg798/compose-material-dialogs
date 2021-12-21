@@ -14,7 +14,7 @@ object Dependencies {
     }
 
     object Accompanist {
-        private const val version = "0.21.4-beta"
+        private const val version = "0.22.0-rc"
         const val pager = "com.google.accompanist:accompanist-pager:$version"
         const val flowLayout = "com.google.accompanist:accompanist-flowlayout:$version"
     }
@@ -26,7 +26,7 @@ object Dependencies {
     }
 
     object Shot {
-        private const val version = "5.11.2"
+        private const val version = "5.12.1"
         const val core = "com.karumi:shot:$version"
         const val android = "com.karumi:shot-android:$version"
     }
@@ -36,7 +36,7 @@ object Dependencies {
     }
 
     object AndroidX {
-        const val coreKtx = "androidx.core:core-ktx:1.8.0-alpha01"
+        const val coreKtx = "androidx.core:core-ktx:1.8.0-alpha02"
 
         object Testing {
             const val version = "1.4.1-alpha03"
@@ -46,7 +46,7 @@ object Dependencies {
         }
 
         object Compose {
-            const val version = "1.1.0-beta04"
+            const val version = "1.1.0-rc01"
 
             const val ui = "androidx.compose.ui:ui:$version"
             const val material = "androidx.compose.material:material:$version"
@@ -58,7 +58,7 @@ object Dependencies {
 
             const val testing = "androidx.compose.ui:ui-test-junit4:$version"
             const val activity = "androidx.activity:activity-compose:1.4.0"
-            const val navigation = "androidx.navigation:navigation-compose:2.4.0-beta02"
+            const val navigation = "androidx.navigation:navigation-compose:2.4.0-rc01"
         }
     }
 }
